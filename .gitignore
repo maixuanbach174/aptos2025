@@ -1,0 +1,5 @@
+dataset/*
+MSTCN/logs/*
+MSTCN/models/*
+__pycache__/
+
