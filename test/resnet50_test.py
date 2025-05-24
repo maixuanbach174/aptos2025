@@ -11,6 +11,6 @@ feats  = np.load(feat_dir / f"{video_id}_feats.npy")   # shape [T, D]
 times  = np.load(feat_dir / f"{video_id}_times.npy")   # shape [T]
 labels = np.load(label_dir / f"{video_id}_labels.npy")  # shape [T]
 
-print(f"feats shape : {feats[0:feats.shape[0]: 100].shape}")
+print(f"feats shape : {feats.shape}")
 # print(f"times shape : {times.shape}")
-print(f"labels shape: {labels[0:labels.shape[0]: 100].shape}")
+print(f"labels shape: {labels.shape}")

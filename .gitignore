@@ -1,4 +1,6 @@
-dataset/*
+dataset/labels
+dataset/features
+dataset/videos
 MSTCN/logs/*
 MSTCN/models/*
 __pycache__/
